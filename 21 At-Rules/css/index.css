@@ -1,0 +1,14 @@
+/* Comment */
+@import url("secondFile.css");
+
+@font-face
+{
+    font-family: "awesomeFont";
+    src: url("fontfile.ttf");
+}
+
+*
+{
+	font-size: 2em;
+	font-family: "awesomeFont", serif
+}
